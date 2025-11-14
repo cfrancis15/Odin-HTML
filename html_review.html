@@ -1,0 +1,74 @@
+<!Doctype HTML>
+
+<!--HTML is the root element, everything else is inside of that.-->
+
+<html lang = 'en'>
+    <head>
+        <meta charset = 'UTF-8'> <!--Always have meta charset encoding element. Ensures page will display correct symbols and such online-->
+        <title>HTML REVIEW</title> <!--Title on the little thumbnail at the top of the browser-->
+    
+    </head>
+
+
+    <body>
+        <!--Body element is where all the content goes-->
+
+        <p>Lorem ipsum</p>
+
+
+        <!--Ordered Lists-->
+        <ol>
+            <li>Item</li>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+
+        <!--Unordered Lists-->
+        <ul>
+            <li>Let</li>
+            <li>Bul</li>
+            <li>Bullet</li>
+        </ul>
+
+
+
+        <!--Anchor Elements-->
+        <a>About the Odin Project</a> <!--Link doesnt do anything. We need to tell it where to take us with an HTML attribute shown below-->
+        <br>
+        <a href="https://www.theodinproject.com/about">About the Odin Project Link</a>
+        <br>
+
+        <!--The following link will open up a link in a new tab-->
+        <a href="https://www.theodinproject.com/about" target="blank" rel="noreferrer">About the Odin Project New Tab</a>
+        <!--target specifies where the linked resource will be opened. If no specified, it will be default _self (opens in current tab)-->        
+        <!--We also used 'rel' attribute. This attribute is used to describe the relation between the current page and the linked document. Noopener: ensures that a link opened in a new window cannot interact or access the original page. If not used, the new page can use JS to jeopardize security of old page-->
+        <!--The noreferrer value of rel attribute provides both privacy and security. Prevents new page from knowing where the user came from (hiding the referrer) and also includes the behavior of noopener-->
+
+
+        <h2>Absolute and Relative Links</h2>
+        <!-- ABSOLUTE AND RELATIVE LINKS-->
+
+        <p>Links to pages on other websites are called absolute links. Links to pages within our own website are called relative links.</p>
+
+        <p>Example of a relative link to our About page</p>
+        <a href="./components/about.html" target="'blank">ABOUT PAGE RELATIVE LINK</a>
+
+        <h2>Image showcase</h2>
+        <img src="./resources/mstile-310x310.png" alt="Odin, King of Kings" height="'310" width="'310">
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>
